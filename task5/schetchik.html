@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Bru Счетчик</title>
+    <style>
+        body {
+            counter-reset: section;
+        }
+        p:hover::before {
+            counter-reset: subsection;
+            counter-increment: section;
+            content: "Box number: " counter(section) " - ";
+        }
+        p:active {
+            color: rgb(156, 101, 192);
+        }
+        h2 {
+            margin: 0;
+        }
+        h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>При наведении на Box№ - работает счетчик</h2>
+    <h3>При нажатии на Box№ - меняет цвет</h3>
+    <p>Box First</p>
+    <p>Box Second</p>
+    <p>Box Third</p>
+    <p>Box Fourth</p>
+</body>
+</html>

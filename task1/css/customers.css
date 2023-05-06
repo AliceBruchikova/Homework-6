@@ -1,0 +1,110 @@
+.customers {
+    width: 1170px;
+    margin: 15px;
+}
+
+.customers-title {
+    width: 1170px;
+    height: 150px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.customers-separator {
+    width: 170px;
+    border-top: 1px solid rgba(236, 121, 121, 1);
+    margin: auto;
+}
+
+.customers-text {
+    width: 1170px;
+    height: 21px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 40px 0 83px 0;
+}
+
+.customers-main {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-block {
+
+}
+
+.customers-message {
+    width: 370px;
+    height: 180px;
+    background:  #E2E2E2;
+    color: #86878B;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+.customers-message-buttom {
+    width: 0px;
+    height: 0px;
+    margin: 0px 0 0 70px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+}
+
+.customers-persone {
+    display: flex;
+    align-items: flex-start;
+}
+
+.customers-persone-photo {
+    width: 70px;
+    height: 70px;
+    margin: 46px 0 0 0;
+    display: inline-block;
+}
+
+.customers-info {
+    display: inline-block;
+}
+
+.customers-persone-name {
+    width: 269px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    margin: 46px 0 15px 30px;
+}
+
+.customers-persone-job {
+    width: 270px;
+    height: 21px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin: 0 0 0 30px;
+}
